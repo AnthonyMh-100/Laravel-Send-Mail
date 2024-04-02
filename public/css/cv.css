@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-form{
+    width: 100%;
+    height: 100vh;
+    background: #6AD4DD;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+    & form{
+    
+        width: 45%;
+        height: 90%;
+        background-color: #F8F6E3;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        border-radius: 15px;
+
+        & div{
+            width: 90%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            input[type='text'],input[type='email'],button[type='submit']{
+                height: 50%;
+            }
+        }
+    }
+}
